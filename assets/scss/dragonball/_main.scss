@@ -1,0 +1,28 @@
+header {
+  background: $dragonball_primary $ssjRose-gif center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: $saiyanSans;
+}
+nav{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7b0219+0,cc4ae7+50,7519c3+100&1+0,0.2+100 */
+background: -moz-linear-gradient(top, rgba(123,2,25,1) 0%, rgba(204,74,231,0.6) 50%, rgba(117,25,195,0.2) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(123,2,25,1) 0%,rgba(204,74,231,0.6) 50%,rgba(117,25,195,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(123,2,25,1) 0%,rgba(204,74,231,0.6) 50%,rgba(117,25,195,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b0219', endColorstr='#337519c3',GradientType=0 ); /* IE6-9 */
+}
+footer{
+  height: 20vh;
+  background: $dragonball_secondary;
+}
+#header-title{
+  font-family: $saiyanSans;
+  color: $ssjRose-hair;
+  font-size: 14em;
+  text-shadow: 0px 0px 40px $white;
+}
+#content{
+  height: 70vh;
+  background: $dragonball_primary $ssjGoku-scream center top no-repeat;
+  background-size: cover;
+}

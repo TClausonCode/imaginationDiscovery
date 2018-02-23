@@ -1,4 +1,13 @@
 /* Custom Styles go here! */
-body {
+header {
+  height: 100vh;
   background: $opal;
+}
+nav{
+  background: rgba(0,0,0,0.5);
+}
+nav{
+  li{
+    padding: 0.5em;
+  }
 }
